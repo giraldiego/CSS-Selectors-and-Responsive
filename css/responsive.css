@@ -1,0 +1,61 @@
+
+  /* Media query for screens narrower than 768px */
+  @media only screen and (max-width: 768px) {
+    header {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .navtitle {
+      padding-left: 0;
+    }
+
+    header li {
+      margin: 10px 0;
+    }
+
+    .hero__block h1 {
+      font-size: 36px;
+      line-height: 48px;
+    }
+
+    .hero__block h2 {
+      font-size: 20px;
+      line-height: 28px;
+    }
+
+    main {
+      height: auto;
+    }
+
+    #two-columns {
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+    }
+
+    #two-columns > p {
+      flex-basis: 100%;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .main__content h2 {
+      font-size: 36px;
+      line-height: 48px;
+    }
+
+    .main__content h3 {
+      font-size: 20px;
+      line-height: 28px;
+    }
+
+    .learn-more {
+      height: auto;
+    }
+
+    .footer__block {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
